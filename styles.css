@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+:root{
+    --primary-color: #faea27;
+    --secondary-color:#111827;
+    --off-white: #F9FAFB;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+
+}
+
+header{
+    background-color: var(--primary-color);
+    margin: auto;
+    text-align: center;
+    color: var(--secondary-color);
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+textarea{
+    display:block;
+    border: 2px solid black;
+    width: 75%;
+    height: 15vh;
+    padding: 2rem;
+    margin: auto;
+    border-radius: 1rem;
+    outline: none;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn-translate {
+    background-color: var(--primary-color);
+    padding: .8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    letter-spacing: 1px;
+    margin: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 100ms ease-in-out;
+}
+
+#btn-translate:hover {
+    background-color: greenyellow;
+}
+
+#output{
+    display: block;
+    border: 2px solid black;
+    width: 75%;
+    height: 15vh;
+    padding: 2rem;
+    margin: auto;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+.footer{
+    background-color: var(--primary-color);
+    padding: 1.5rem;
+    text-align: center;
+    color: var(--secondary-color);
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: var(--secondary-color);
+    margin: 0 .8rem;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: .6rem;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
