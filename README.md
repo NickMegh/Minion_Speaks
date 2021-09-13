@@ -1,4 +1,4 @@
-#mark6 
+**#mark6** 
 # Minion_Speaks
 Fun translation app created with Vanilla JS,
 It's a fun app which takes input from user in english language and translates it into banana language using a third party api from funtranslation.com
